@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<script>
+var today = new Date();
+var dd = String(today.getDate()).padStart(2, '0');
+var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
+var yyyy = parseInt(today.getFullYear());
+
+today = mm + '/' + dd + '/' + yyyy;
+//document.write("Today Date: " + today);
+
+// -21 from year
+var bbbb = (yyyy - 21); //age is 21 for alcohol purhase 
+by_date = mm + '/' + dd + '/' + bbbb; //date must be born by to purchase  any date after, no sale
+
+document.write("<center><H1>BORN AFTER THIS DATE</H1> <br>");
+document.write("<H1>" + by_date + "<H1><br>");
+document.write("<H1> ---  NO ALCOHOL SALES TO THEM TODAY ---</H1><br></center>");
+
+
+</script>
+
+    
+</body>
+</html>
