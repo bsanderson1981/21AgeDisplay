@@ -10,3 +10,7 @@ photo id's against for customer that purhcase alcohol in my cafe.  We are not a 
 volume store  for alcohol sales.   
 
 
+Free to use -   use of this code at your own risk - 
+Code is not a substatue for any id or id info visual or logical validation.
+Visual inspection of Id's presented should always be done in acorredance of your  state and local
+requirements. 
